@@ -13,4 +13,5 @@ app.use(helmet({
 }));
 app.use(express.static(join(__dirname, "build")));
 
+// Starting the server
 app.listen(port, () => console.log(`Server listening on port ${port}`));
