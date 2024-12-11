@@ -1,6 +1,7 @@
 # PeopleFinder sample application - test
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fe55f8a0-4595-43ec-8dc3-ecf653a62b28/deploy-status)](https://app.netlify.com/sites/peoplefinder/deploys)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkenazk%2Fpeoplefinder.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkenazk%2Fpeoplefinder?ref=badge_shield)
 
 [Aserto](https://aserto.com) is an authorization framework that provides fine-grained authorization for API's and applications. Aserto can be used in the service / API to make allow/deny decisions based on an authorization policy.
 
@@ -137,3 +138,6 @@ yarn run test
 ## License
 
 This project is licensed under the MIT license. See the [LICENSE](./LICENSE) file for more info.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkenazk%2Fpeoplefinder.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkenazk%2Fpeoplefinder?ref=badge_large)
