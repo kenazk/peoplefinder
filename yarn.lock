@@ -19,17 +19,17 @@
     jsonpointer "^5.0.0"
     leven "^3.1.0"
 
-"@aserto/aserto-react@0.1.48":
-  version "0.1.48"
-  resolved "https://registry.yarnpkg.com/@aserto/aserto-react/-/aserto-react-0.1.48.tgz#0c6b5693d9e0e4775db47b55c14c3826b0c3bdd0"
-  integrity sha512-VTl6NdibqtQgJ0B1S3PGUc9gy5sMaH5RnSWryj0xGx1rmgqszaLXDvefzWg6BD81N8dlQcusJYIArxT6s5iOYQ==
+"@aserto/aserto-react@0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@aserto/aserto-react/-/aserto-react-0.4.2.tgz#dc3deab8113511f2bad77aa28cc7d383b67bfaf1"
+  integrity sha512-/zmQy15am7QsnoW9kj5DI7TReBmQe5ZbDDTo4A329+wXaKKiWZ9orbP3T1LW+EUHi5OCNEO6HcEkNjw5KmTSAw==
   dependencies:
-    "@aserto/aserto-spa-js" "^0.1.26"
+    "@aserto/aserto-spa-js" "^0.4.0"
 
-"@aserto/aserto-spa-js@^0.1.26":
-  version "0.1.26"
-  resolved "https://registry.yarnpkg.com/@aserto/aserto-spa-js/-/aserto-spa-js-0.1.26.tgz#81ca194b365263360113fc1bbce2a0383ca137e9"
-  integrity sha512-2jfkWQFiWpxnbzAjgUJNy9Dgj3DZigOefTwlU6ctuQDMk+fzjeCDiqEI+gW3DCo9Uttk5s1crzlBSct8K/0URA==
+"@aserto/aserto-spa-js@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@aserto/aserto-spa-js/-/aserto-spa-js-0.4.0.tgz#7277de9dd8845e984e375fa1da5af13883b5ef78"
+  integrity sha512-LdlIIxysxITD0vJZTZfURvSLlVBWlOsYWQMuHtolc00oANZRWa3TNt/Vi6ZCQGL9L0p+LwpsNuA/Y2Ptj6tSIQ==
 
 "@auth0/auth0-react@^1.2.0":
   version "1.2.0"
