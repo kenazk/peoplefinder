@@ -1,4 +1,4 @@
-FROM node:12-alpine as build
+FROM node:24-alpine as build
 
 RUN apk update && apk upgrade && \
   apk add --no-cache bash git openssh yarn
@@ -17,7 +17,7 @@ RUN yarn run build-docker-bundle
 
 # ---------------
 
-FROM node:12-alpine
+FROM node:24-alpine
 
 RUN mkdir -p /app/build
 
