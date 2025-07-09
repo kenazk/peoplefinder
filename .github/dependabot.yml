@@ -1,0 +1,36 @@
+version: 2
+updates:
+  # Enable version updates for npm dependencies
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "10:00"
+    # Limit the number of open pull requests for npm dependencies
+    open-pull-requests-limit: 10
+    # Add prefix to commit messages and PR titles
+    commit-message:
+      prefix: "npm"
+      prefix-development: "npm-dev"
+    # Group minor and patch updates together
+    groups:
+      minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+
+  # Enable version updates for Docker dependencies
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "10:00"
+    # Limit the number of open pull requests for Docker dependencies
+    open-pull-requests-limit: 5
+    # Add prefix to commit messages and PR titles
+    commit-message:
+      prefix: "docker"
